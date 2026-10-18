@@ -1,5 +1,6 @@
 {
   "name": "@ffxixslh/utils",
+  "description": "Useful utilities and helpers",
   "version": "0.0.1",
   "type": "module",
   "exports": {
