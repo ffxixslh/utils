@@ -1,9 +1,7 @@
-import { createPortal } from "react-dom";
-import type { ReactElement, ReactPortal } from "react";
-import { resolveContainer } from "./get-container";
-import { canUseDom } from "./can-use-dom";
-
-export type GetContainer = HTMLElement | (() => HTMLElement) | null;
+import type { ReactElement, ReactPortal } from 'react';
+import { createPortal } from 'react-dom';
+import { canUseDom } from './can-use-dom';
+import { type GetContainer, resolveContainer } from './get-container';
 
 export function renderToContainer(
   getContainer: GetContainer,
