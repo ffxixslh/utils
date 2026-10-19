@@ -1,6 +1,7 @@
 {
   "name": "@ffxixslh/utils",
   "description": "Useful utilities and helpers",
+  "homepage": "https://github.com/ffxixslh/utils",
   "version": "0.0.4",
   "type": "module",
   "exports": {
